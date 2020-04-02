@@ -1,0 +1,40 @@
+2020-03-30 15:21:40.1113|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hryne\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-30 15:21:40.5710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:53437/  
+2020-03-30 15:21:40.8152|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-03-30 15:21:41.0741|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 253.6853ms
+2020-03-30 15:21:41.1401|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-03-30 15:21:41.2468|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 663.7338ms 500 text/html; charset=utf-8
+2020-03-30 15:22:35.7047|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hryne\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-30 15:22:35.9360|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:53437/  
+2020-03-30 15:22:36.0708|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-03-30 15:22:36.1586|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 83.9669ms
+2020-03-30 15:22:36.1908|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-03-30 15:22:36.3001|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 364.6035ms 500 text/html; charset=utf-8
+2020-03-30 15:23:45.6547|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hryne\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-30 15:23:45.9493|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:53437/  
+2020-03-30 15:23:46.1388|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-03-30 15:23:46.2333|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-03-30 15:23:46.2373|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8332ms.
+2020-03-30 15:23:46.2607|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-03-30 15:23:46.4998|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-03-30 15:23:47.7346|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-03-30 15:23:47.8643|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 1619.0669ms.
+2020-03-30 15:23:47.8643|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 1725.6362ms
+2020-03-30 15:23:47.8643|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1926.6824ms 200 text/html; charset=utf-8
+2020-03-30 15:23:47.9196|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:53437/css/site.css  
+2020-03-30 15:23:47.9284|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified
+2020-03-30 15:23:47.9284|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.5239ms 304 text/css
+2020-03-30 15:23:49.9604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:53437/home/details/1  
+2020-03-30 15:23:49.9926|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Details", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Details(System.Nullable`1[System.Int32]) on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-03-30 15:23:50.0216|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) - Validation state: Valid
+2020-03-30 15:23:50.1032|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (40ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-03-30 15:23:50.1108|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 88.7975ms.
+2020-03-30 15:23:50.1108|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Details.
+2020-03-30 15:23:50.1287|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Details executed in 17.2324ms.
+2020-03-30 15:23:50.1287|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) in 136.6879ms
+2020-03-30 15:23:50.1287|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 174.0749ms 200 text/html; charset=utf-8
